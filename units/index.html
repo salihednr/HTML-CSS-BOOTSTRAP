@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>SALIH EDNEER</title>
+    </head>
+    <body>
+    </body>
+</html>
+<!--
+    CSS UNITS
+    ABSOLUTE, RELATIVE
+    PIXELS
+    EM,REM
+    VW , VH
+    absolute:-Not Depends upon parents or screen
+    relative:-variable with screen and parent
+    1)Pixel:-(px)
+    pixels is the absolute value which only depens on the value we have given
+    2)% Unit:- (%)
+    Relative Value Which Depends upon parent default parent is screen itself (if there is no parent)
+    (we can play with inside of div to understand better)
+    3)em  
+    Relative Depend Upon Parent
+    1em = Default Value (Usually Which Are 16px)
+    2 em = default value * 2 = 32
+    if base value(parent value) changed then em values will change
+    4)rem
+    Relative Depens only root
+    num rem=base value (16px)*num
+    it is not depending parent if we want to change we have to change the root
+    eg 
+    html{
+        font-size:10px;
+    }
+    5)vw & vh
+    viewport width & viewport height
+    Relative To Screen nothing else (% of the screen)
+    which is having default margin and padding 1% so we have to use 
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    calc()
+    we can mix units and calculate it is math function in css
+    calc(100vh - 100px)
+    only works if it has space between hiphen(-)
+
+min-height,max-height,min-width,max-width,width,height,auto,overflow
+
+Note
+1) Default Value Is auto take width or height wrt content
+2) width,height :- giving particular height and width
+if content overflew then we can use 
+overflow:hidden;
+overflow:scroll;...
+3) min-height:- this is the minimum height if there is more content it will expand
+4) max-height:- this is the maximum height if content is more then content will overflow
+if less content it will adjust
+similarly max-width & min-width
+
+
+-->
